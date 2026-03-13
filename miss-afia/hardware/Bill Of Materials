@@ -1,0 +1,22 @@
+# MISS-AFIA Bill of Materials
+
+**Total Cost: $65.00** (vs. $2,000+ conventional systems)
+
+| Component | Supplier | Cost (USD) | Specs |
+|-----------|----------|------------|-------|
+| ESP32-CAM AI Thinker | AliExpress | $5.00 | OV5640, Wi-Fi, 4MB PSRAM |
+| OV5640 Camera Module | Included | - | 5MP, fixed focus |
+| 4GB MicroSD Class 10 | Amazon | $3.00 | 10MB/s write |
+| OLED Display 128x64 | AliExpress | $4.00 | SSD1306, I2C |
+| Stainless Steel Shelf | Custom fab | $45.00 | 304 SS, strain transfer |
+| LED Flash Module | AliExpress | $2.00 | 5V, 500mA |
+| Mounting Hardware | Local | $6.00 | M4 bolts, brackets |
+
+**Power Budget:** 0.5W nominal, 1.0W peak (LED on)  
+**Battery Life:** 5 days @ 20,000mAh power bank
+
+## Assembly Notes
+
+- All components are off-the-shelf or locally fabricable
+- No specialized equipment required for assembly
+- Designed for field deployment in resource-limited settings
